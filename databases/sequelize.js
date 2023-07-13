@@ -9,11 +9,11 @@ let sequelize
 
 if(process.env.NODE_ENV === 'production'){
   sequelize = new Sequelize(
-    'db_a64746_stuffbe',
-    'a64746_stuffbe',
-    'stuffbea64746',
+    '',
+    '',
+    '',
     {
-      host: 'mysql5048.site4now.net',
+      host: '',
       dialect: 'mysql',
       dialectOptions: {
         timezone: '+00:00'
@@ -24,11 +24,11 @@ if(process.env.NODE_ENV === 'production'){
   )
 }else{
   sequelize = new Sequelize(
-    'db_a64746_stuffbe',
-    'a64746_stuffbe',
-    'stuffbea64746',
+    '',
+    '',
+    '',
     {
-      host: 'mysql5048.site4now.net',
+      host: '',
       dialect: 'mysql',
       dialectOptions: {
         timezone: '+00:00'
